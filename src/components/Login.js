@@ -86,10 +86,11 @@ function Login(){
         <div className="container mt-5">
             <div className="row justify-content-center">
                 <div className="col-md-6 col-lg-4">
+                      <h2 className="text-center mb-3 text-primary">MINI HCM</h2>
                     <div className="card shadow">
+                        
                         <div className="card-body">
                             <form onSubmit={handleSubmit}>
-                                <h2 className="text-center mb-3 text-primary">MINI HCM</h2>
                                 <h3 className="text-center mb-4">Login</h3>
 
                                 <div className="mb-3">
