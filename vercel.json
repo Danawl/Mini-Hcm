@@ -1,0 +1,15 @@
+{
+  "functions": {
+    "*.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "build": {
+    "env": {
+      "NODE_VERSION": "18"
+    }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install --legacy-peer-deps"
+}
