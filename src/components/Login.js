@@ -89,6 +89,7 @@ function Login(){
                     <div className="card shadow">
                         <div className="card-body">
                             <form onSubmit={handleSubmit}>
+                                <h2 className="text-center mb-3 text-primary">MINI HCM</h2>
                                 <h3 className="text-center mb-4">Login</h3>
 
                                 <div className="mb-3">
